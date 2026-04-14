@@ -1,0 +1,49 @@
+h1{
+    color :aqua;
+    letter-spacing: 15px;
+    word-spacing: 30p0x;
+    text-shadow:2px 2px 5px green ;
+}
+
+
+p{
+    text-indent: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    writing-mode:horizontal-tb;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+h2{
+    text-decoration: overline;
+}
+
+h3{
+    text-decoration: line-through;
+}
+
+h4{
+    text-decoration: underline;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.myelement{
+    color: gray;
+}
+
+#normal{
+    color: black;
+}
+
+
+#italic{
+    font-style:italic;
+    font-weight:bold;
+}
+
+#oblique{
+    font-style:oblique;
+    font-weight:900;
+}

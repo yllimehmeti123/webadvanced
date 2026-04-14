@@ -1,5 +1,5 @@
 body{
-    background-color:lightblue;
+    background-color:rgb(230, 191, 173);
     font-family: Arial,sans-serif;
     padding:20px
 }
@@ -28,8 +28,17 @@ p{
     padding:20px;
     border: 5px dashed red;
     margin: 30px auto;
+    box-sizing:border-box;
+}
 
+.responsive-image{
+    width:100%;
+    margin:20 px auto;
+    border:2px solid black;
+}
 
-
+body{
+   background-image:url(beatuiful.jpg);
+   background-size:cover;
 
 }
