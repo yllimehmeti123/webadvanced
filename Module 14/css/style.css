@@ -1,0 +1,39 @@
+article p{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+
+article > p {
+    background: yellow;
+}
+
+
+article ~ p{
+      background-color: purple;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+article + p{
+    background: orange;
+}
+
+:first-child{
+    background-color:green;
+    color:antiquewhite;
+}
+
+input:in-range{
+    border: 3px solid green;
+}
+
+input:out-of-range{
+    border:3 px solid red;
+}
+input:required{
+    background-color: #9ee5f0;
+}
+input:focus{
+    background-color:yellow
+}
