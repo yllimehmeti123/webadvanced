@@ -33,3 +33,20 @@ div{
     width: 200px;
     height: 200px;
 }
+
+table tr:nth-child(odd){
+  background-color: red;
+}
+
+table tr:nth-child(even){
+  background-color:blue;
+}
+div{
+    overflow: scroll;
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+}
+
+
+
