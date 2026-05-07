@@ -134,4 +134,11 @@ li a:hover:not(.active){
     color:black;
     text-decoration:none;
 }
-
+#vertical-menu li a.active{
+    background-color: green;
+    color:white;
+}
+#vertical-menu li a:hover:not(.active){
+   background-color:aqua;
+   color:white;
+}
