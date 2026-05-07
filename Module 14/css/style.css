@@ -20,12 +20,12 @@ article + p{
 }
 
 :first-child{
-    background-color:rgba(0, 0, 0, 0.863);
+    background-color:rgb(211, 211, 211);
     color:antiquewhite;
 }
 
 input:in-range{
-    border: 3px solid rgb(0, 92, 128);
+    border: 3px solid rgb(0, 119, 128);
 }
 
 input:out-of-range{
@@ -37,53 +37,11 @@ input:required{
 input:focus{
     background-color:yellow
 }
-
 span:first-of-type{
-    background-color: aqua;
-    color: white;
+    background-color: black;
+    color:blanchedalmond;
     padding: 10 px;
 }
 
-input:invalid{
-    border: 2px solid red;
-}
-
-input:valid{
-    border: 2px solid green;
-}
- input{
-    padding: 8px;
-    margin:10px;
- }
-
-p::first-line{
-    color: blue;
-}
-
-p::first-letter{
-    color: red;
-    font-size: 30 px;
-}
-
-/*
-.b:before{
-content: "";
-}
-
-.n::after{
-    content: "";
-}
-*/
 
 
-::selection{
-    background: yellow;
-    color: black;
-}
-
-.box{
-    background-color:orange;
-    padding:20px;
-    margin-top:20 px;
-    opacity:0.5;
-}
