@@ -35,7 +35,7 @@ a[href="https://shkolladigjitale.com/"]{
 }
 p[class*="ds"]{
     background-color:gray ;
-    color: white;
+    color: rgb(255, 255, 255);
     padding:20px;
 }
 div[id~="ds"]{
