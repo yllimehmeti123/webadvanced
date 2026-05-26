@@ -1,0 +1,32 @@
+/*ZOOM IN */
+#photo1 img {
+    transform: scale(1);
+    transition: .3s ease-in-out ;
+
+}
+#photo1:hover img{
+    transform: scale(1,3)
+}
+/*slide*/
+#photo2 img {
+    margin-left:0px;
+    transition: .3s ease-in-out ;
+}
+/*BLUR*/
+#photo3 img {
+    filter:blur(3px);
+    transition:.3s ease-in-out;
+}
+#photo3:hover img{
+    filter:blur(0);
+}
+/* GRAY SCALE*/
+
+#photo4 img{
+    filter:grayscale(100%);
+    transition: .3 ease-in-out;
+}
+
+#photo4:hover img{
+    filter: grayscale(0);
+}

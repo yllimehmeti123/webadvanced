@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: aliceblue;
+}
+h1{
+    margin: 30px;
+}
+.box{
+    width:120px;
+    height:120px;
+    background-color: blue;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:bold;
+   
+}
+/*2D Transformers */
+ .translate:hover{
+    transform: translate(30px,20px);
+ }
+ .rotate:hover{
+    transform: rotate(50deg);
+ }
+ .scale:hover{
+    transform: scale(1.5,1.2);
+ }
+  
+ .scalex:hover{
+    transform: scaleX(1.8)
+ }
+ .scaley:hover{
+    transform: scaleY(1.8)
+ }
+ .skewx:hover{
+    transform: skewX(25deg);
+
+ }
+
+ .skewy:hover{
+    transform: skewY(25deg);
+
+ }
+ /*3D Transformers */
+
+ .rotatex:hover{
+    transform: rotateX(50deg);
+ }
+
+  .rotaty:hover{
+    transform: rotatY(50deg);
+ }
+
+  .rotatez:hover{
+    transform: rotateZ(50deg);
+ }
