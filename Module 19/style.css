@@ -1,0 +1,122 @@
+.container{
+    display: flex;
+    background-color: blue;
+}
+
+.container div{
+    background: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+
+.container div:nth-child(1){
+    order: 0 ;
+}
+
+.container div:nth-child(2){
+    order: 2 ;
+}
+
+.container div:nth-child(3){
+    order: 3;
+}
+
+.container div:nth-child(4){
+    order: 0 ;
+}
+
+.container2{
+    display :flex;
+    background: yellow;
+    flex-direction :  column-reverse;
+    
+}
+
+.container2 div{
+    background: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.container3{
+    display: flex;
+    background-color: blue;
+    flex-direction: row;
+}
+
+.container3 div{
+    background: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.container3 :nth-child(1){
+   flex-grow: 2;
+}
+
+.container3 :nth-child(2){
+   flex-grow: 2;
+}
+
+.container4{
+    display:flex;
+    background-color: red ;
+    flex-direction: row;
+    flex-wrap :  wrap-reverse;
+
+}
+
+.container4 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    width: 30%;
+}
+
+
+.container5 {
+    display:flex;
+    background-color:  aqua;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.container5 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+   
+
+}
+
+.container6{
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    height:800px;
+    align-content:  center;
+    flex-wrap: wrap;
+}
+
+.container6 div{
+     background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    width:400px;
+    height:200px
+
+}
+
+
+
+
+
+
+
