@@ -1,0 +1,25 @@
+@media(min-width:600px){
+    body{
+        background-color: blue;
+        color: rgb(226, 29, 29);
+    }
+}
+
+@media all and(mmax-width:600px){
+    body{
+        background-color: orange;
+        color: aqua;
+
+    }
+   
+}
+
+@media all and(orientation: landscape){
+    h1{
+        font-size: 80px;
+    }
+
+    img{
+        display: none;
+    }
+}
