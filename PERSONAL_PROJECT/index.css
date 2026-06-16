@@ -1,3 +1,7 @@
+
+
+
+
 *{
     margin:0;
     padding:0;
@@ -6,17 +10,17 @@
 }
 
 body{
-    background:#f5f7fb;
+    background:#0f6e94;
 }
 
-/* NAVBAR */
+
 
 .navbar{
     display:flex;
     justify-content:space-between;
     align-items:center;
     padding:20px 60px;
-    background:#001f5c;
+    background:rgb(0, 0, 0);
 }
 
 .logo{
@@ -40,15 +44,15 @@ body{
 
 .navbar a{
     text-decoration:none;
-    color:white;
+    color:red;
     transition:0.3s;
 }
 
 .navbar a:hover{
-    color:#4da6ff;
+    color:#4dffd3;
 }
 
-/* HERO */
+
 
 .hero{
     display:flex;
@@ -64,7 +68,7 @@ body{
 
 .hero-text h1{
     font-size:55px;
-    color:#001f5c;
+    color:#000000;
     margin-bottom:20px;
 }
 
@@ -75,7 +79,7 @@ body{
 
 .btn{
     text-decoration:none;
-    background:#005eff;
+    background:#ff0000;
     color:white;
     padding:14px 30px;
     border-radius:8px;
@@ -83,7 +87,7 @@ body{
 }
 
 .btn:hover{
-    background:#003cb3;
+    background:#000000;
 }
 
 .hero-image img{
@@ -108,7 +112,7 @@ body{
 
 }
 
-/* FEATURES */
+
 
 .features{
     display:flex;
@@ -124,7 +128,7 @@ body{
     padding:25px;
     text-align:center;
     border-radius:15px;
-    box-shadow:0 0 15px rgba(0,0,0,0.1);
+    box-shadow:aqua;
     transition:0.4s;
 }
 
@@ -132,7 +136,7 @@ body{
     transform:translateY(-10px);
 }
 
-/* COURSES */
+
 
 .courses{
     text-align:center;
@@ -140,7 +144,7 @@ body{
 }
 
 .courses h2{
-    color:#001f5c;
+    color:#33005c;
     margin-bottom:40px;
 }
 
@@ -153,10 +157,10 @@ body{
 
 .course-card{
     width:320px;
-    background:white;
+    background:aqua;
     border-radius:15px;
     overflow:hidden;
-    box-shadow:0 0 15px rgba(0,0,0,0.1);
+    box-shadow:aqua;
     transition:0.4s;
 }
 
@@ -178,7 +182,7 @@ body{
     padding:0 15px 20px;
 }
 
-/* TABLE */
+
 
 .schedule{
     padding:60px 20px;
@@ -189,24 +193,24 @@ table{
     width:80%;
     margin:auto;
     border-collapse:collapse;
-    background:white;
+    background:rgb(255, 255, 255);
 }
 
 th{
     background:#001f5c;
-    color:white;
+    color:rgb(10, 61, 202);
 }
 
 th,td{
-    border:1px solid #ddd;
+    border:1px  #001f5c;
     padding:15px;
 }
 
-/* FOOTER */
+
 
 footer{
-    background:#001f5c;
-    color:white;
+    background:#00475c;
+    color:black;
     text-align:center;
     padding:30px;
     margin-top:50px;

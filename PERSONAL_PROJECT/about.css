@@ -6,7 +6,7 @@
 }
 
 body{
-    background:#f5f7fb;
+    background:#0f6e94;
 }
 
 .navbar{
@@ -14,19 +14,19 @@ body{
     justify-content:space-between;
     align-items:center;
     padding:20px 60px;
-    background:#001f5c;
+    background:#000000;
 }
 
 .logo{
     display:flex;
     align-items:center;
     gap:10px;
-    color:white;
+    color: white;
 }
 
 .logo img{
-    width:55px;
-    height:55px;
+    width:100px;
+    height:100px;
     border-radius:50%;
 }
 
@@ -38,11 +38,11 @@ body{
 
 .navbar a{
     text-decoration:none;
-    color:white;
+    color:rgb(153, 17, 17);
 }
 
 .navbar a:hover{
-    color:#4da6ff;
+    color:#4d85ff;
 }
 
 .about{
@@ -79,20 +79,8 @@ body{
     transform:scale(1.05);
 }
 
-.video-section{
-    text-align:center;
-    padding:50px;
-}
 
-.video-section h2{
-    margin-bottom:20px;
-    color:#001f5c;
-}
 
-video{
-    max-width:100%;
-    border-radius:15px;
-}
 
 footer{
     background:#001f5c;
