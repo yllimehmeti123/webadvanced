@@ -10,7 +10,7 @@
 }
 
 body{
-    background:#0f6e94;
+    background:#000000;
 }
 
 
@@ -20,7 +20,7 @@ body{
     justify-content:space-between;
     align-items:center;
     padding:20px 60px;
-    background:rgb(0, 0, 0);
+    background: #079ca1;;
 }
 
 .logo{
@@ -44,12 +44,12 @@ body{
 
 .navbar a{
     text-decoration:none;
-    color:red;
+    color:rgb(255, 255, 255);
     transition:0.3s;
 }
 
 .navbar a:hover{
-    color:#4dffd3;
+    color:#4d59ff;
 }
 
 
@@ -68,7 +68,7 @@ body{
 
 .hero-text h1{
     font-size:55px;
-    color:#000000;
+    color:#ffffff;
     margin-bottom:20px;
 }
 
@@ -79,16 +79,14 @@ body{
 
 .btn{
     text-decoration:none;
-    background:#ff0000;
-    color:white;
+    background:#ffffff;
+    color:rgb(0, 0, 0);
     padding:14px 30px;
     border-radius:8px;
     transition:0.3s;
 }
 
-.btn:hover{
-    background:#000000;
-}
+
 
 .hero-image img{
     width:450px;
@@ -144,7 +142,7 @@ body{
 }
 
 .courses h2{
-    color:#33005c;
+    color:#ffffff;
     margin-bottom:40px;
 }
 
@@ -157,10 +155,10 @@ body{
 
 .course-card{
     width:320px;
-    background:aqua;
+    background:rgb(6, 165, 165);
     border-radius:15px;
     overflow:hidden;
-    box-shadow:aqua;
+    box-shadow:rgb(42, 148, 143);
     transition:0.4s;
 }
 
@@ -197,20 +195,21 @@ table{
 }
 
 th{
-    background:#001f5c;
-    color:rgb(10, 61, 202);
+    background:#000000;
+    color:rgb(255, 255, 255);
 }
 
 th,td{
-    border:1px  #001f5c;
+    border:1px solid #000000;
     padding:15px;
 }
 
 
 
+
 footer{
-    background:#00475c;
-    color:black;
+    background:#000000;
+    color:rgb(255, 255, 255);
     text-align:center;
     padding:30px;
     margin-top:50px;

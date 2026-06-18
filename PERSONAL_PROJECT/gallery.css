@@ -1,0 +1,6 @@
+.about-image{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    flex-wrap: wrap;
+}

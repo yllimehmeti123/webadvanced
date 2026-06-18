@@ -6,7 +6,7 @@
 }
 
 body{
-    background:#0f6e94;
+    background:#ffffff;
 }
 
 .navbar{
@@ -14,7 +14,7 @@ body{
     justify-content:space-between;
     align-items:center;
     padding:20px 60px;
-    background:#000000;
+    background:#079ca1;
 }
 
 .logo{
@@ -38,11 +38,11 @@ body{
 
 .navbar a{
     text-decoration:none;
-    color:rgb(153, 17, 17);
+    color:rgb(255, 255, 255);
 }
 
 .navbar a:hover{
-    color:#4d85ff;
+    color:#0c158f;
 }
 
 .about{
@@ -51,6 +51,7 @@ body{
     align-items:center;
     gap:50px;
     padding:80px 50px;
+    
 }
 
 .about-text{
@@ -58,7 +59,7 @@ body{
 }
 
 .about-text h1{
-    color:#001f5c;
+    color:#000000;
     font-size:45px;
     margin-bottom:20px;
 }
@@ -71,7 +72,7 @@ body{
 .about-image img{
     width:450px;
     border-radius:15px;
-    box-shadow:0 0 15px rgba(0,0,0,0.2);
+    box-shadow:white;
     transition:0.4s;
 }
 
@@ -83,7 +84,7 @@ body{
 
 
 footer{
-    background:#001f5c;
+    background:#000000;
     color:white;
     text-align:center;
     padding:30px;
