@@ -99,3 +99,4 @@ var computer1 = new Computer("macbook","m1","8gn","5600M gpu");
 var comuter2 = new Computer("Acer","Intelcore i3", "8gb", "integrated");
 
 
+ 
