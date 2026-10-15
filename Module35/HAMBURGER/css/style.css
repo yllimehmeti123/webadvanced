@@ -1,0 +1,35 @@
+nav{
+    overflow:hidden;
+    background-color: blue;;
+    position:relative;
+    max-width:400px;
+}
+
+nav #yLinks{
+    display:none;
+}
+
+
+nav a , button{
+    color:white;
+    padding:14 px 16 px;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+nav button.icon{
+    background: blue;
+    display: block;
+    position: absolute;
+    margin-top:10px;
+    right:10px;
+    top:0;
+}
+
+
+nav a :hover{
+    background-color: white;
+    color:black;
+}
